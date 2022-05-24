@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #201b2d;
+}
+
+div, p, input, button, form, span, a, ul, li, ol{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.header{
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    color: #fff;
+}
+
+span{
+    font-size: 59px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.offer{
+    width: 560px;
+}
+
+.offer-text{
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.travell{
+    margin-top: 70px;
+}
+
+.logo{
+    margin-top: 70px;
+}
+
+.dreams{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dream{
+    margin-top: 155px;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    background: #ffd429;
+    display: block;
+    text-align: center;
+    width: 220px;
+    padding: 19px;
+    margin-top: 44px;
+    transition: all 0.5s ease;
+    color: #000;
+}
+
+.btn:hover{
+    background: #fde37b;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 115px;
+}
+
+.goals{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    justify-content: space-between;
+}
+
+.goal{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    background: url('../img/icon1.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.goal-travell{
+    width: 300px;
+    text-align: center;
+    background: url('../img/icon2.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.goal-value{
+    width: 300px;
+    text-align: center;
+    background: url('../img/icon3.jpg') no-repeat top;
+    padding-top: 100px;
+}
+
+.goal-title{
+    font-size: 19px;
+}
+
+.signup{
+    background: #ecf3f8;
+    padding-bottom: 115px;
+}
+
+.form{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 65px;  
+}
+
+.input{
+    margin-top: 15px;
+    width: 345px;
+    height: 45px;
+}
+
+.btn-form{
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 24px;
+    width: 345px;
+    height: 55px; 
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    background: #164d7a;
+    padding: 65px 0px;
+
+}
+
+.credits{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Responsive */
+
+
+/* 992-1200px */
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+    .travell{
+        width: 43%;
+    }
+    .btn{
+        margin-bottom: 44px;
+    }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+        
+    }
+    .dreams{
+        flex-direction: column;
+    }
+    .travell{
+        width: 65%;
+        display:block;
+        margin: 75px auto 0;
+    } 
+    .offer{
+        width: 100%;
+    }
+    .offer-text{
+        width: 100%;
+    }
+    
+
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+    .goals{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 22%;
+    }
+
+}
+
+/* 0-576px */
+@media screen and (max-width: 576px){
+    .container{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .goal{
+        width: 100%;
+    }
+    .goals{
+        padding: 0;
+    }
+    .input{
+        width: 90%;
+    }
+    .btn-form{
+        width: 90%;
+    }
+    .footer{
+        padding: 30px 0px;
+    }
+    .travell{
+        width: 80%;
+        margin-top: 35px;
+    }
+    .signup{
+        padding-bottom: 5px;
+    }
+}
