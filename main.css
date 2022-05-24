@@ -100,21 +100,21 @@ span{
     font-size: 15px;
     width: 300px;
     text-align: center;
-    background: url('../img/icon1.jpg') no-repeat top;
+    background: url('icon1.jpg') no-repeat top;
     padding-top: 100px;
 }
 
 .goal-travell{
     width: 300px;
     text-align: center;
-    background: url('../img/icon2.jpg') no-repeat top;
+    background: url('icon2.jpg') no-repeat top;
     padding-top: 100px;
 }
 
 .goal-value{
     width: 300px;
     text-align: center;
-    background: url('../img/icon3.jpg') no-repeat top;
+    background: url('icon3.jpg') no-repeat top;
     padding-top: 100px;
 }
 
